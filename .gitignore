@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+logs/
+.idea/
+.vscode/
+.DS_Store
+*.log
+
+# 本地配置（含 API Key，不要提交）
+conf/app_config.yaml
+
+# 大文件：模型权重 / ES 数据
+docker/embedding/
+docker/elasticsearch/
